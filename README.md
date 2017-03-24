@@ -21,6 +21,10 @@ regulator) in order to make the module fully autonomous.
 - 2.5mm male stereo plug (connected to _J1_)
 - 3.3V power supply
 
+## Similar projects
+
+- https://guillermoamaral.com/read/canon-wifimote/
+
 ## License
 
 CWRM is released under the MIT License. See the bundled LICENSE file for
