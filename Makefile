@@ -1,4 +1,4 @@
-SKETCH=cwrm.ino
+SKETCH=src/cwrm.ino
 BUILD_DIR=./build
 UPLOAD_PORT=/dev/cu.usbserial-A50285BI
 
