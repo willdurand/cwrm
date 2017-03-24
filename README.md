@@ -5,8 +5,8 @@ Camera WiFi Remote Module
 Status](https://travis-ci.org/willdurand/cwrm.svg?branch=master)](https://travis-ci.org/willdurand/cwrm)
 
 CWRM stands for _Camera WiFi Remote Module_. It is a ESP8266-based device that
-allows to trigger the focus/shutter of a camera. It is in **early stage** but it
-works.
+allows to trigger the focus/shutter of a camera _via_ WiFI. It is in **early stage**
+but it works.
 
 ## Schematic
 
