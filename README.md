@@ -35,7 +35,7 @@ control the camera.
 ### Development
 
 The source code can be found in the `cwrm/` folder (Arduino IDE requires the
-same name for both the main sketch and directory names). You can compile the
+same name for both the main sketch and its directory). You can compile the
 firmware using `make` (recommended):
 
     $ make clean
@@ -46,6 +46,12 @@ to compile the HTML code and generate the `cwrm/cwrm_generated.h` file:
 
     $ npm install html-minifier -g
     $ make compile-html
+
+This project uses the following libraries/tools:
+
+- AJAX lib: https://github.com/yanatan16/nanoajax
+- Makefile: https://github.com/plerup/makeEspArduino
+- CI build: https://github.com/adafruit/travis-ci-arduino
 
 ## Similar projects
 
