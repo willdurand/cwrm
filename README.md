@@ -21,6 +21,12 @@ regulator) in order to make the module fully autonomous.
 - 2.5mm male stereo plug (connected to _J1_)
 - 3.3V power supply
 
+## Software
+
+The module creates its own WiFi network, and then acts as a captive portal,
+redirecting everything to `192.168.10.1`. A simplistic web page is served to
+control the camera.
+
 ## Similar projects
 
 - https://guillermoamaral.com/read/canon-wifimote/
