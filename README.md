@@ -6,7 +6,7 @@ Status](https://travis-ci.org/willdurand/cwrm.svg?branch=master)](https://travis
 
 CWRM stands for _Camera WiFi Remote Module_. It is a ESP8266-based device that
 allows to trigger the focus/shutter of a camera _via_ WiFI. It is in **early stage**
-but it works.
+but it works with my Canon camera™.
 
 ## Schematic
 
@@ -23,7 +23,7 @@ regulator) in order to make the module fully autonomous.
 - 1 x ESP8266-01 (_U1_)
 - 2 x 2.2k ohms (_R1_ and _R2_)
 - 2 x 2N2222 (_Q1_ and _Q2_)
-- 2.5mm male stereo plug (connected to _J1_)
+- 2.5mm male stereo plug (connected to _J1_, for Canon cameras)
 - 3.3V power supply
 
 ## Software
