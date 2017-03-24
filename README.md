@@ -11,7 +11,9 @@ Note: the schematic below assumes the presence of a 3.3V power supply for the
 WiFi module. This will evolve soon to use a battery (along with a voltage
 regulator) in order to make the module fully autonomous.
 
-![](./design/cwrm_schem.png)
+<p align="center">
+    <img src="./design/cwrm_schem.png">
+</p>
 
 ### Parts
 
@@ -26,6 +28,21 @@ regulator) in order to make the module fully autonomous.
 The module creates its own WiFi network, and then acts as a captive portal,
 redirecting everything to `192.168.10.1`. A simplistic web page is served to
 control the camera.
+
+### Development
+
+The source code can be found in the `cwrm/` folder (Arduino IDE requires the
+same name for both the main sketch and directory names). You can compile the
+firmware using `make` (recommended):
+
+    $ make clean
+    $ make
+
+You will need [html-minifier](https://github.com/kangax/html-minifier) installed
+to compile the HTML code and generate the `cwrm/cwrm_generated.h` file:
+
+    $ npm install html-minifier -g
+    $ make compile-html
 
 ## Similar projects
 
