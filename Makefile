@@ -11,6 +11,11 @@ UPLOAD_PORT=/dev/cu.usbserial-A50285BI
 
 include makeEspArduino.mk
 
+debug: BUILD_EXTRA_FLAGS=-DDEBUG -DDEBUG_OUTPUT=Serial
+debug: all
+
+.PHONY: debug
+
 # https://github.com/kangax/html-minifier
 compile-html:
 	@echo '/* This file has been automatically generated, do not edit it */' > $(GENERATED_HEADER_FILE)

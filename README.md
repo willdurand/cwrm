@@ -41,6 +41,11 @@ firmware using `make` (recommended):
     $ make clean
     $ make
 
+By default, it is compiled for release purpose. You can also compile a debug
+version with:
+
+    $ make debug
+
 You will need [html-minifier](https://github.com/kangax/html-minifier) installed
 to compile the HTML code and generate the `cwrm/cwrm_generated.h` file:
 

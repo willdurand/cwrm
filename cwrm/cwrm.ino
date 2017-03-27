@@ -11,8 +11,6 @@
 #define DNS_PORT      53
 #define AP_PASSWORD   "LetMeJoin"
 
-#define DEBUG
-
 #ifdef DEBUG
 #define DEBUG_PRINT(message) Serial.println(message)
 #else
