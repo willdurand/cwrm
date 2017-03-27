@@ -6,12 +6,13 @@ SRC_DIR=./cwrm
 GENERATED_HEADER_FILE=$(SRC_DIR)/cwrm_generated.h
 
 SKETCH=$(SRC_DIR)/cwrm.ino
+BUILD_EXTRA_FLAGS+=-DAPP_VERSION=$(VERSION)
 BUILD_DIR=./build
 UPLOAD_PORT=/dev/cu.usbserial-A50285BI
 
 include makeEspArduino.mk
 
-debug: BUILD_EXTRA_FLAGS=-DDEBUG -DDEBUG_OUTPUT=Serial
+debug: BUILD_EXTRA_FLAGS+=-DDEBUG -DDEBUG_OUTPUT=Serial
 debug: all
 
 .PHONY: debug
@@ -35,6 +36,7 @@ compile-html:
 		--remove-optional-tags \
 		$(SRC_DIR)/index.html \
 		| sed 's/AP_NAME/$(NAME)/g' \
+		| sed 's/APP_VERSION/$(VERSION)/g' \
 		| head -c -2 >> $(GENERATED_HEADER_FILE)
 	@echo ')";' >> $(GENERATED_HEADER_FILE)
 	@echo '' >> $(GENERATED_HEADER_FILE)
