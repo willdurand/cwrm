@@ -67,6 +67,7 @@
                 return;
             }
 
+            trigger($shutterBtn, '/trigger/shutter');
             interval = setInterval(function () {
                 trigger($shutterBtn, '/trigger/shutter');
             }, seconds * 1000);
