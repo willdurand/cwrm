@@ -1,7 +1,7 @@
 SHELL = bash
 
 NAME=Camera WiFi Remote Module
-VERSION=1.0.0
+VERSION=1.1.0
 SRC_DIR=./cwrm
 GENERATED_HEADER_FILE=$(SRC_DIR)/cwrm_generated.h
 
