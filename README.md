@@ -22,6 +22,7 @@ regulator) in order to make the module fully autonomous.
 
 - 1 x ESP8266-01 (_U1_)
 - 2 x 2.2k ohms (_R1_ and _R2_)
+- 2 x 3.3k ohms (_R3_ and _R4_)
 - 2 x 2N2222 (_Q1_ and _Q2_)
 - 2.5mm male stereo plug (connected to _J1_, for Canon cameras)
 - 3.3V power supply
