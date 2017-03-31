@@ -32,6 +32,10 @@ The module creates its own WiFi network, and then acts as a captive portal,
 redirecting everything to `192.168.10.1`. A simplistic web page is served to
 control the camera.
 
+<p align="center">
+    <img src="./design/webapp.png">
+</p>
+
 ### Development
 
 The source code can be found in the `cwrm/` folder (Arduino IDE requires the
