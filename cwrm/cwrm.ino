@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include "cwrm_generated.h"
 
-#define FOCUS_PIN     0
-#define SHUTTER_PIN   2
+#define FOCUS_PIN     2
+#define SHUTTER_PIN   0
 #define FOCUS_DELAY   800
 #define SHUTTER_DELAY 1200
 #define WEB_PORT      80
