@@ -8,11 +8,11 @@ CWRM stands for _Camera WiFi Remote Module_. It is a ESP8266-based device that
 allows to trigger the focus/shutter of a camera _via_ WiFI. It is in **early stage**
 but it works with my Canon camera™.
 
-## Schematic
+<p align="center">
+    <img src="https://cloud.githubusercontent.com/assets/217628/26035992/da0a6d98-38d5-11e7-8524-13eb8652c8e4.jpg">
+</p>
 
-Note: the schematic below assumes the presence of a 3.3V power supply for the
-WiFi module. This will evolve soon to use a battery (along with a voltage
-regulator) in order to make the module fully autonomous.
+## Schematic
 
 <p align="center">
     <img src="./design/cwrm_schem.png">
@@ -25,7 +25,7 @@ regulator) in order to make the module fully autonomous.
 - 2 x 3.3k ohms (_R3_ and _R4_)
 - 2 x 2N2222 (_Q1_ and _Q2_)
 - 2.5mm male stereo plug (connected to _J1_, for Canon cameras)
-- 3.3V power supply
+- 3.3V power supply (like 2 AAA batteries)
 
 ## Software
 
@@ -35,6 +35,15 @@ control the camera.
 
 <p align="center">
     <img src="./design/webapp.png">
+</p>
+
+## Case
+
+A STL file is provided to 3D-print a case for this module. It costs ~20 euros
+on Shapeways.
+
+<p align="center">
+    <img src="./design/case.png">
 </p>
 
 ### Development
