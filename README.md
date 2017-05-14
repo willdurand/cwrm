@@ -27,6 +27,15 @@ but it works with my Canon camera™.
 - 2.5mm male stereo plug (connected to _J1_, for Canon cameras)
 - 3.3V power supply (like 2 AAA batteries)
 
+## Case
+
+A STL file is provided to 3D-print a case for this module. It costs ~20 euros
+on Shapeways.
+
+<p align="center">
+    <img src="./design/case.png">
+</p>
+
 ## Software
 
 The module creates its own WiFi network, and then acts as a captive portal,
@@ -35,15 +44,6 @@ control the camera.
 
 <p align="center">
     <img src="./design/webapp.png">
-</p>
-
-## Case
-
-A STL file is provided to 3D-print a case for this module. It costs ~20 euros
-on Shapeways.
-
-<p align="center">
-    <img src="./design/case.png">
 </p>
 
 ### Development
